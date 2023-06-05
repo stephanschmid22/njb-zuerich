@@ -17,12 +17,12 @@
 		"content right": ""
 	},
     "Unterseite Bsp": {
-		"displayName": "",
-		"parent": "second generation",
+		"displayName": "Beispiel Unterseite",
+		"parent": "first generation",
 		"class": "mirador",
-		"file": "",
-		"title": "<b></b> - ",
-		"content": "<p><\/p>",
+		"file": "NJB-simple.txt",
+		"title": "<b>Beispiel</b> - Test",
+		"content": "<p>Das ist nur ein Test, ob die Unterseiten richtig dargestellt werden.<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
