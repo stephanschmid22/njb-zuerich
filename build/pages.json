@@ -24,7 +24,7 @@
 	"Own Example": {
 		"parent": "examples",
 		"class": "mirador",
-		"file": "NJB-collection.json",
+		"file": "NJB-simple.txt",
 		"title": "<b>Simple Mirador</b> - Neujahrsblätter",
 		"content":"<p>Das ist die erste Testseite für die Projektarbeit. Hier sollen alle Neujahrsblätter im Mirador Viewer angezeigt werden.</p>",
 		"content right": "",
