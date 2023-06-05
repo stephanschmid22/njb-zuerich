@@ -21,6 +21,15 @@
 		"content": "<p>Examples will be linked below this page.</p>",
 		"content right": ""
 	},
+	"Own Example": {
+		"parent": "examples",
+		"class": "mirador",
+		"file": "NJB-collection.json",
+		"title": "<b>Simple Mirador</b> - Neujahrsblätter",
+		"content":"<p>Das ist die erste Testseite für die Projektarbeit. Hier sollen alle Neujahrsblätter im Mirador Viewer angezeigt werden.</p>",
+		"content right": "",
+		"displaycode": false
+	},
 	"Standard Example": {
 		"parent": "examples",
 		"class": "mirador",
