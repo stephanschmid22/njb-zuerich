@@ -4,117 +4,62 @@
 		"content": "<p>This project is based on a simple copy of the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] repository. It has been set up to provide a dedicated example of using the system to view [IIIF|https:\/\/iiif.io] manifests within the IIIF Image viewer [Mirador|https:\/\/projectmirador.org\/].<\/p>\r\n\r\n<div class=\"alert alert-info\" role=\"alert\"><h4 class=\"alert-heading\">Instructions<\/h4><p>Full details and instructions relating to how this system works can be found in the [simple-site|https:\/\/jpadfield.github.io\/simple-site\/] project webpages.<\/p><p>Four example pages have been provided, to demonstrate the presentation of IIIF resources using this system.</p><div class=\"row\">\r\n<div class=\"col-6 col-lg-6\" style=\"text-align:center;\">\r\n\t<a class=\"btn btn-outline-primary nav-button btn-block\" id=\"button1\" role=\"button\" href=\"Standard_Example.html\">\r\n\tStandard Example\r\n<\/a><\/div>\r\n<div class=\"col-6 col-lg-6\" style=\"text-align:center;\">\r\n\t<a class=\"btn btn-outline-primary nav-button btn-block\" id=\"button2\" role=\"button\" href=\"Simple_Example.html\">\r\n\tSimple Example\r\n<\/a><\/div>\r\n<\/div>\r\n<br\/>\r\n<div class=\"row\">\r\n<div class=\"col-6 col-lg-6\"  style=\"text-align:center;\">\r\n\t<a class=\"btn btn-outline-primary nav-button btn-block\" id=\"button3\" role=\"button\" href=\"Simple_Text_Example.html\">\r\n\tSimple Text Example\r\n<\/a><\/div>\r\n<div class=\"col-6 col-lg-6\"  style=\"text-align:center;\">\r\n\t<a class=\"btn btn-outline-primary nav-button btn-block\" id=\"button4\" role=\"button\" href=\"Complex_Example.html\">\r\n\tComplex Example\r\n<\/a><\/div>\r\n<\/div><\/div>\r\n\r\n<h3>Acknowledgement<\/h3>\r\n<p>This specific project was prepared and tested as part of:<\/p>\r\n<h4>The AHRC Funded [IIIF - TANC|https:\/\/tanc-ahrc.github.io\/IIIF-TNC] project<\/h4>\r\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https:\/\/github.com\/jpadfield\/simple-site\/blob\/master\/docs\/graphics\/TANC%20-%20IIIF.png\"><img height=\"64\" src=\"https:\/\/github.com\/jpadfield\/simple-site\/raw\/master\/docs\/graphics\/TANC%20-%20IIIF.png\" alt=\"IIIF - TNC\" style=\"max-width:100%;\"><\/a><\/p>",
 		"content right": "<figure class=\"figure\"><img src=\"https://media.ng-london.org.uk/iiif/009-01DZ-0000/full/512,/0/default.jpg\" class=\"figure-img img-fluid rounded\" alt=\"Hans Holbein the Younger, Jean de Dinteville and Georges de Selve ('The Ambassadors').\"><figcaption class=\"figure-caption\">Hans Holbein the Younger, Jean de Dinteville and Georges de Selve ('The Ambassadors') \u00a9 The National Gallery, London. Bought, 1890. This image is licensed under [CC-BY-NC-ND 4.0|https://creativecommons.org/licenses/by-nc-nd/4.0/], presented via a IIIF server.</figcaption></figure>"
 	},
-	"instructions": {
-		"displayName": "Instructions",
-		"aliases": "Instructions",
-		"class": "mirador",
-		"file": "mirador.json",
-		"title": "Simple Site - The <b>IIIF Mirador Extension</b>",
-		"content": "<p>This is an demonstration of a [simple-site|https:\/\/github.com\/jpadfield\/simple-site] extension that uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/3.0\/#table-of-contents]. It is an example of a special page that can be added to the [pages.json|pages.json.html] file.<\/p>\r\n\r\n<h3>The Example<\/h3>\r\n[##]\r\n<br\/>\r\n<h3>Summary<\/h3>\r\n<div class=\"alert alert-info\" role=\"alert\"><h4 class=\"alert-heading\">Extension Variables<\/h4><p>For this extension to work the <b>class<\/b> variable needs to be set to <b>mirador<\/b> and the <b>file<\/b> variable needs to give the name of the additional json file including the IIIF manifest list data as shown below.<\/p><\/div>\r\n\r\n<figure>\r\n\t\t<pre style=\"overflow: hidden;border: 2px solid black;padding: 10px;\">\r\n<code>...  \r\n  \"<b>mirador<\/b>\": {\r\n    \"<b>parent<\/b>\": \"extensions\",\r\n    \"<b>class<\/b>\": \"mirador\",\r\n    \"<b>file<\/b>\": \"mirador.json\",\r\n    \"<b>title<\/b>\": \"Simple Site - The &lt;b&gt;IIIF Mirador Extension&lt;\/b&gt;\",\r\n    \"<b>content<\/b>\": \"&lt;p&gt;This extension uses the &#91;IIIF|https:\/\/iiif.io&#93; to produce a customised presentation of a bespoke selection of &#91;IIIF manifests ... \",\r\n    \"<b>content right<\/b>\": \"\"\t\t\r\n  }\r\n...\r\n<\/code><\/pre><figcaption class=\"figure-caption\">Simplified version of the JSON object used to describe this page.<\/figcaption>\r\n<\/figure>\r\n\r\n<p>The details included in the <b>content<\/b> and <b>content right<\/b> variable will be presented as [previously described|pages.json.html], however the data included in the named file, in this case <b>mirador.json<\/b> will be processed to add a populated MIrador image viewer to the page.<\/p>\r\n\r\n<h3>Mirador JSON file<\/h3>\r\n\r\n<p>As with the other JSON files the mirador data needs to be organised in a series of JSON objects, an example of which is provided below, for an example of real code please see the [mirador.json|https:\/\/github.com\/jpadfield\/simple-site\/blob\/master\/build\/mirador.json] file. The expected data can be split into two parts, the first is required and the second, more complex section is optional.<\/p>\r\n\r\n<h4>Section one - <b>catalog<\/b> object<\/h4>\r\n\r\n<p>This object is composed of a simple list of manifests URIs that should be preloaded into the viewer. If only the catalog object is provided Mirador is setup to autoload in the first image of the first manifest listed.<\/p>\r\n<figure>\r\n\t\t<pre style=\"overflow: hidden;border: 2px solid black;padding: 10px;\">\r\n<code>...\r\n  \"<b>catalog<\/b>\": [\r\n    { \"manifestId\": \"<b>https:\/\/web.address\/of\/a\/manifest you want to include\"<\/b> }, \r\n    { \"manifestId\": \"<b>https:\/\/you.can.include\/a\/number\/of\/manifests\/as\/required<\/b>\" }\r\n    ]\r\n...\r\n<\/code><\/pre><figcaption class=\"figure-caption\">A commented example of a catalog object with two manifests listed.<\/figcaption>\r\n<\/figure>\r\n<br\/>\r\n<h4>Section two - the <b>windows<\/b> object<\/h4>\r\n<p>As noted above this section is optional, it can also be a bit more complex. This object id intended to allow users to make use of some of the standard Mirador options to define which manifests and images are automatically loaded into the viewer and how they are arranged.<\/p>\r\n<figure>\r\n\t\t<pre style=\"overflow: hidden;border: 2px solid black;padding: 10px;\">\r\n<code>...\r\n  \"<b>windows<\/b>\": [\r\n    {\r\n    \"<b>manifestId<\/b>\": \"URI of the manifest, from the included list, that you would like to load into a given slot by default\",\r\n    \"<b>canvasIndex<\/b>\":\"The number, starting from 0, of the image, as listed in the manifest, to be loaded in first\",\r\n    \"<b>view<\/b>\": \"The optional variable to define the initial view of this slot, enter one of <b>single<\/b>(default) or <b>gallery<\/b>\",\r\n    \"<b>id<\/b>: \"Option variable to define a unique id for this slot, can be used in conjunction with more complex options to define the order and position in which listed slots will appear.\"\r\n    }\r\n  ]\r\n...\r\n<\/code><\/pre><figcaption class=\"figure-caption\">A commented version of a windows object with a single slot defined. More information about these various values can be found on the main [Mirador webpage|https:\/\/github.com\/ProjectMirador\/mirador\/wiki\/Configuration-Guides].<\/figcaption>\r\n<\/figure>\r\n<br\/>\r\n<h3>Mirador Text file<\/h3>\r\n\r\n<p>Although the JSON format described above is preferred and provides additional functions, in order to make this extension as simple an accessible as possible, it is also possible to provide details of required manifests as simple text list, with one manifest per line.<\/p>\r\n\r\n<figure>\r\n\t\t<pre style=\"overflow: hidden;border: 2px solid black;padding: 10px;\">\r\n<code>https:\/\/manifests.britishart.yale.edu\/manifest\/34\r\nhttps:\/\/iiif.harvardartmuseums.org\/manifests\/object\/299843\r\nhttps:\/\/media.nga.gov\/public\/manifests\/nga_highlights.json\r\n<\/code><\/pre><figcaption class=\"figure-caption\">An example of the simplest way of passing manifests to simple-site page builder, a simple list of manifest urls saved as a text file with one manifest url per line.<\/figcaption>\r\n<\/figure>",
-		"content right": "",
-		"displaycode": true		
-	},
-	"examples": {
-		"displayName": "Examples",
-		"aliases": "Examples",
-		"title": "<b>Simple Mirador</b> - Examples",
-		"content": "<p>Examples will be linked below this page.</p>",
+    "first generation": {
+		"displayName": "1. Generation 1645-1684",
+		"title": "<b>Die erste Generation</b> - 1645-1684",
+		"content": "<p>Dient als Startseite für die \"1. Generation\" der Neujahrsblätter (1645-1684). Enthält noch unbestimmte Zahl an Unterseiten.</p>",
 		"content right": ""
 	},
-	"Own Example": {
-		"parent": "examples",
+    "second generation": {
+		"displayName": "2. Generation 1685-1729",
+		"title": "<b>Die zweite Generation</b> - 1685-1729",
+		"content": "<p>Dient als Startseite für die \"2. Generation\" der Neujahrsblätter (1685-1729). Enthält noch unbestimmte Zahl an Unterseiten.</p>",
+		"content right": ""
+	},
+    "Unterseite Bsp": {
+		"displayName": "",
+		"parent": "second generation",
 		"class": "mirador",
-		"file": "NJB-simple.txt",
-		"title": "<b>Simple Mirador</b> - Neujahrsblätter",
-		"content":"<p>Das ist die erste Testseite für die Projektarbeit. Hier sollen alle Neujahrsblätter im Mirador Viewer angezeigt werden.</p>",
+		"file": "",
+		"title": "<b></b> - ",
+		"content": "<p><\/p>",
 		"content right": "",
 		"displaycode": false
 	},
-	"Standard Example": {
-		"parent": "examples",
-		"class": "mirador",
-		"file": "mirador.json",
-		"title": "<b>Simple Mirador</b> - The Standard Example",
-		"content": "<p>This extension uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/2.1\/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] project.<\/p>\r\n\r\n<p><b>For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https:\/\/jpadfield.github.io\/simple-site\/].<\/b><\/p>\r\n\r\n<div class=\"alert alert-info\" role=\"alert\"><h4 class=\"alert-heading\">Summary<\/h4><p>This example page has been created using all of the available options in the [mirador JSON file|https:\/\/jpadfield.github.io\/simple-site\/Mirador_IIIF_viewer.html].<\/p><\/div>\r\n\r\n<h3>The Viewer<\/h3>\r\n[##]",
-		"content right": "",
-		"displaycode": true
-	},
-	"Simple Example": {
-		"parent": "examples",
-		"class": "mirador",
-		"file": "mirador-simple.json",
-		"title": "<b>Simple Mirador</b> - The Simple Example",
-		"content": "<p>This extension uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/2.1\/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] project.<\/p>\r\n\r\n<p><b>For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https:\/\/jpadfield.github.io\/simple-site\/].<\/b><\/p>\r\n\r\n<div class=\"alert alert-info\" role=\"alert\"><h4 class=\"alert-heading\">Summary<\/h4><p>This simple example page has been created using only the manifest section of the [mirador JSON file|https:\/\/jpadfield.github.io\/simple-site\/Mirador_IIIF_viewer.html].<\/p><\/div>\r\n\r\n<h3>The Viewer<\/h3>\r\n[##]",
-		"content right": "",
-		"displaycode": true
-	},
-	"Simple Text Example": {
-		"parent": "examples",
-		"class": "mirador",
-		"file": "mirador-simple.txt",
-		"title": "<b>Simple Mirador</b> - The Text Example",
-		"content": "<p>This extension uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/2.1\/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] project.<\/p>\r\n\r\n<p><b>For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https:\/\/jpadfield.github.io\/simple-site\/].<\/b><\/p>\r\n\r\n<div class=\"alert alert-info\" role=\"alert\"><h4 class=\"alert-heading\">Summary<\/h4><p>This very simple example page has been created using only a simple text list of IIIF manifests, for more information see [here|https:\/\/jpadfield.github.io\/simple-site\/Mirador_IIIF_viewer.html].<\/p><\/div>\r\n\r\n<h3>The Viewer<\/h3>\r\n[##]",
-		"content right": "",
-		"displaycode": true
-	},
-	"Complex Example": {
-		"parent": "examples",
-		"class": "mirador",
-		"file": "mirador-complex.json",
-		"title": "<b>Simple Mirador</b> - The Complex Example",
-		"content": "<p>This extension uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/2.1\/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] project.<\/p>\r\n\r\n<p><b>For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https:\/\/jpadfield.github.io\/simple-site\/].<\/b><\/p>\r\n\r\n<div class=\"alert alert-info\" role=\"alert\"><h4 class=\"alert-heading\">Summary<\/h4><p>This complex example page has been created using all of the available options in the [mirador JSON file|https:\/\/jpadfield.github.io\/simple-site\/Mirador_IIIF_viewer.html].<\/p><\/div>\r\n\r\n<h3>The Viewer<\/h3>\r\n[##]",
-		"content right": "",
-		"displaycode": true
-	},
-	"further-examples": {
-		"displayName": "Further Examples",
-		"aliases": "Further Examples",
-		"title": "<b>Simple Mirador</b> - Further Examples",
-		"content": "<p>Additional Examples will be linked below this page.</p>",
+	"third generation": {
+		"displayName": "3. Generation 1730-1758",
+		"title": "<b>Die dritte Generation</b> - 1730-1758",
+		"content": "<p>Dient als Startseite für die \"3. Generation\" der Neujahrsblätter (1730-1758). Enthält 3 oder mehr Unterseiten (1: Lochmann/Scheuchzer; 2: Herrliberger/Bullinger; 3: Götz, Gellert, Füssli.</p>",
 		"content right": ""
 	},
-	"entombment": {
-		"displayName": "The Entombment",
-		"aliases":  "The Entombment",
-		"parent": "further-examples",
+	"1730-1738": {
+		"displayName": "Lochmann und Scheuchzer (1730-1738)",
+		"parent": "third generation",
 		"class": "mirador",
-		"file": "mirador-example01.json",
-		"title": "<b>Technical Study</b> - <i>The Entombment</i>",
-		"content": "<p>This extension uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/2.1\/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] project.<\/p>\r\n\r\n<p><b>For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https:\/\/jpadfield.github.io\/simple-site\/].<\/b><\/p>\r\n\r\n<div class=\"alert alert-success\" role=\"alert\"><h4 class=\"alert-heading\">Summary<\/h4><p>This example presents a series of images take of [<i>The Entombment</i>|https://artuk.org/discover/artworks/the-entombment-138881] by [Rembrandt van Rijn (1606–1669)|https://artuk.org/discover/artists/rembrandt-van-rijn-16061669], [Hunterian Art Gallery, University of Glasgow|https://artuk.org/visit/venues/hunterian-art-gallery-university-of-glasgow-5924]. These images where taken at the [The National Gallery|https://www.nationalgallery.org.uk/] as part of a detailed technical examination. As the painting is relatively small is was possible to take some very high resolution images, with the overall visible image captured at about 1500 ppi and the two visible detail images captured at about 4000 ppi.<\/p><\/div>\r\n\r\n<h3>The Viewer<\/h3>\r\n[##]",
-		"content right": "",
-		"displaycode": true
-	},
-	"adorationkings": {
-		"displayName": "The Adoration of the Kings",
-		"aliases":  "The Adoration of the Kings",
-		"parent": "further-examples",
-		"class": "mirador",
-		"file": "mirador-example02.json",
-		"title": "<b>Illustrated Catalogues</b> - <i>The Adoration of the Kings</i>",
-		"content": "<p>This extension uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/2.1\/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] project.<\/p>\r\n\r\n<p><b>For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https:\/\/jpadfield.github.io\/simple-site\/].<\/b><\/p>\r\n\r\n<div class=\"alert alert-success\" role=\"alert\"><h4 class=\"alert-heading\">Summary<\/h4><p>To coincide with the [Jan Gossaert's Renaissance|https://www.nationalgallery.org.uk/whats-on/exhibitions/jan-gossaerts-renaissance] exhibition (2011), the full catalogue entry of Gossaert's [<i>The Adoration of the Kings</i>|https://www.nationalgallery.org.uk/paintings/jan-gossaert-jean-gossart-the-adoration-of-the-kings], taken from 'The Sixteenth Century Netherlandish Paintings with French Paintings before 1600' by Lorne Campbell, was published on the Gallery website in advance of book publication. Find out more about the [catalogues|https://www.nationalgallery.org.uk/paintings/research/the-national-gallery-catalogues].<br/><br/>Lorne Campbell was George Beaumont Senior Research Curator at the National Gallery. He is the author of numerous publications including ‘The Fifteenth Century Netherlandish Paintings’ in the new series of National Gallery Catalogues.<\/p><\/div>\r\n\r\n<h3>The Viewer<\/h3>\r\n[##]",
-		"content right": "",
-		"displaycode": true
-	},
-	"dominican": {
-		"displayName": "A Dominican, with the Attributes of Saint Peter Martyr",
-		"aliases":  "A Dominican, with the Attributes of Saint Peter Martyr",
-		"parent": "further-examples",
-		"class": "mirador",
-		"file": "mirador-example03.json",
-		"title": "<b>Registered Images</b> - <i>A Dominican, with the Attributes of Saint Peter Martyr</i>",
-		"content": "<p>The images presented here are all representations of <a href=\"https://www.nationalgallery.org.uk/paintings/giovanni-bellini-a-dominican-with-the-attributes-of-saint-peter-martyr\">A Dominican, with the Attributes of Saint Peter Martyr about 1490-1500</a> by <a href=\"http://www.nationalgallery.org.uk/artists/giovanni-bellini\">Giovanni Bellini</a> which was presented as part of the <a href=\"https://www.nationalgallery.org.uk/exhibitions/past/close-examination-fakes-mistakes-and-discoveries\">Close Examination: Fakes, Mistakes and Discoveries</a> exhibition and is described in more detail <a href=\"http://www.nationalgallery.org.uk/paintings/research/a-dominican-with-the-attributes-of-saint-peter-martyr\">here</a>.</p>\r\n[##]",
+		"file": "",
+		"title": "<b>Lochmann und Scheuchzer</b> - 1730-1738",
+		"content": "<p>Hier werden die Neujahrsblätter von 1730-1738 angezeigt.<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
-	"haywain": {
-		"displayName": "The Hay Wain",
-		"aliases":  "The Hay Wain",
-		"parent": "further-examples",
+	"1739-1752": {
+		"displayName": "Herrliberger und Bullinger (1739-1752)",
+		"parent": "third generation",
 		"class": "mirador",
-		"file": "haywain.json",
-		"title": "<b>Connecting Collections</b> - The Hay Wain",
-		"content": "<p>This extension uses the [IIIF|https:\/\/iiif.io] image viewer [Mirador|https:\/\/projectmirador.org\/] to produce a customised presentation of a bespoke selection of IIIF manifests[@@IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see https:\/\/iiif.io\/api\/presentation\/2.1\/#table-of-contents]. It is an example of a special page that can be added and presented using the [simple-site|https:\/\/github.com\/jpadfield\/simple-site] project.<\/p>\r\n\r\n<p><b>For more information about the simple-site project and details about how this example work please see the [simple-site webpages|https:\/\/jpadfield.github.io\/simple-site\/].<\/b><\/p>\r\n\r\n<div class=\"alert alert-success\" role=\"alert\"><h4 class=\"alert-heading\">Summary<\/h4><p>This example provides a comparison between <a href=\"https:\/\/www.nationalgallery.org.uk\/paintings\/john-constable-the-hay-wain\">The Hay Wain<\/a> from the <a href=\"https:\/\/www.nationalgallery.org.uk\/\">National Gallery<\/a> with the <a href=\"https:\/\/collections.vam.ac.uk\/item\/O81405\/full-scale-study-for-ithe-oil-painting-john-constable\/\">Full-Scale Study for The Hay Wain<\/a> from the <a href=\"http:\/\/www.vam.ac.uk\/\">Victoria and Albert Museum<\/a>. Further related information can be seen <a href=\"https:\/\/www.vam.ac.uk\/articles\/john-constables-sketches\">here<\/a>.<\/p><\/div>\r\n\r\n<h3>The Viewer<\/h3>\r\n[##]",
-		"content right": "",
-		"displaycode": true
+		"file": "",
+		"title": "<b>Herrliberger und Bullinger</b> - 1739-1752",
+		"content": "<p><\/p>",
+		"content right": "Hier werden die Neujahrsblätter von 1739-1752 angezeigt.",
+		"displaycode": false
+	},
+	"1753-1758": {
+		"displayName": "Götz, Gellert und Füssli (1753-1758)",
+		"parent": "third generation",
+		"class": "mirador",
+		"file": "",
+		"title": "<b>Götz, Gellert und Füssli</b> - 1753-1758",
+		"content": "<p><\/p>",
+		"content right": "Hier werden die Neujahrsblätter von 1753-1758 angezeigt.",
+		"displaycode": false
 	}
 }
