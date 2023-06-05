@@ -129,9 +129,11 @@
 		<figcaption class="figure-caption">The complete JSON object used to define this content and layout of this page.</figcaption>
 	</figure>		<h3>Extra extension file</h3>
 	<figure>
-		<pre class="" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://manifests.collections.yale.edu/ycba/obj/34
-https://iiif.harvardartmuseums.org/manifests/object/299843
-https://media.nga.gov/public/manifests/nga_highlights.json
+		<pre class="" style="overflow-y: auto;overflow-x: auto; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://www.e-rara.ch/i3f/v20/17729184/manifest
+https://www.e-rara.ch/i3f/v20/17729188/manifest
+https://www.e-rara.ch/i3f/v20/15073017/manifest
+https://www.e-rara.ch/i3f/v20/17729193/manifest
+https://www.e-rara.ch/i3f/v20/17729197/manifest
 </code></pre>
 		<figcaption class="figure-caption">The complete extension file used to define extra content included in this page.</figcaption>
 	</figure>	
@@ -169,13 +171,15 @@ https://media.nga.gov/public/manifests/nga_highlights.json
 var myMiradorInstance = Mirador.viewer({
        id: "mirador",
        windows: [{
-					"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"
+					"manifestId": "https://www.e-rara.ch/i3f/v20/17729184/manifest"
 					}],
        manifests: {
-"https:\/\/manifests.collections.yale.edu\/ycba\/obj\/34":{"provider":"Undefined"},
-"https:\/\/iiif.harvardartmuseums.org\/manifests\/object\/299843":{"provider":"Undefined"},
-"https:\/\/media.nga.gov\/public\/manifests\/nga_highlights.json":{"provider":"Undefined"},},
-       "catalog": [{"manifestId": "https://manifests.collections.yale.edu/ycba/obj/34"}, {"manifestId": "https://iiif.harvardartmuseums.org/manifests/object/299843"}, {"manifestId": "https://media.nga.gov/public/manifests/nga_highlights.json"}],
+"https:\/\/www.e-rara.ch\/i3f\/v20\/17729184\/manifest":{"provider":"Undefined"},
+"https:\/\/www.e-rara.ch\/i3f\/v20\/17729188\/manifest":{"provider":"Undefined"},
+"https:\/\/www.e-rara.ch\/i3f\/v20\/15073017\/manifest":{"provider":"Undefined"},
+"https:\/\/www.e-rara.ch\/i3f\/v20\/17729193\/manifest":{"provider":"Undefined"},
+"https:\/\/www.e-rara.ch\/i3f\/v20\/17729197\/manifest":{"provider":"Undefined"},},
+       "catalog": [{"manifestId": "https://www.e-rara.ch/i3f/v20/17729184/manifest"}, {"manifestId": "https://www.e-rara.ch/i3f/v20/17729188/manifest"}, {"manifestId": "https://www.e-rara.ch/i3f/v20/15073017/manifest"}, {"manifestId": "https://www.e-rara.ch/i3f/v20/17729193/manifest"}, {"manifestId": "https://www.e-rara.ch/i3f/v20/17729197/manifest"}],
        
        });     
      });
