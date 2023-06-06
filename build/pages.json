@@ -10,19 +10,29 @@
 		"content": "<p>Dient als Startseite für die \"1. Generation\" der Neujahrsblätter (1645-1684). Enthält noch unbestimmte Zahl an Unterseiten.</p>",
 		"content right": ""
 	},
-    "second-generation": {
-		"displayName": "2. Generation 1685-1729",
-		"title": "<b>Die zweite Generation</b> - 1685-1729",
-		"content": "<p>Dient als Startseite für die \"2. Generation\" der Neujahrsblätter (1685-1729). Enthält noch unbestimmte Zahl an Unterseiten.</p>",
-		"content right": ""
-	},
-    "just-an-example": {
+	"just-an-example": {
 		"displayName": "Beispiel Unterseite",
 		"parent": "first-generation",
 		"class": "mirador",
 		"file": "NJB-simple.txt",
 		"title": "<b>Beispiel</b> - Test",
 		"content": "<p>Das ist nur ein Test, ob die Unterseiten richtig dargestellt werden.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+    "second-generation": {
+		"displayName": "2. Generation 1685-1729",
+		"title": "<b>Die zweite Generation</b> - 1685-1729",
+		"content": "<p>Dient als Startseite für die \"2. Generation\" der Neujahrsblätter (1685-1729). Enthält noch unbestimmte Zahl an Unterseiten.</p>",
+		"content right": ""
+	},
+		"1685-1711": {
+		"displayName": "Johann Meyer (1685-1711)",
+		"parent": "second-generation",
+		"class": "mirador",
+		"file": "jmeyer.txt",
+		"title": "<b>Johann Meyer</b> - 1685-1711",
+		"content": "<p>Hier werden die Neujahrsblätter von 1685-1711 angezeigt.<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
