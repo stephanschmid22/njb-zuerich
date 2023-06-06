@@ -152,9 +152,12 @@
 
 var myMiradorInstance = Mirador.viewer({
        id: "mirador",
-       windows: ,
-       manifests: [],
-       
+       windows: [{
+					"manifestId": "https://www.e-rara.ch/i3f/v20/17729184/manifest"
+					}],
+       manifests: {
+"https:\/\/www.e-rara.ch\/i3f\/v20\/17729184\/manifest":{"provider":"Undefined"},},
+       "catalog": [{"manifestId": "https://www.e-rara.ch/i3f/v20/17729184/manifest"}],
        
        });     
      });
