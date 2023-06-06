@@ -11,12 +11,22 @@
 		"content right": ""
 	},
 		"first": {
-		"displayName": "Das allererste Neujahrsblatt",
+		"displayName": "Das allererste Neujahrsblatt (1645)",
 		"parent": "first-generation",
 		"class": "mirador",
 		"file": "tischzucht.txt",
 		"title": "<b>Tischzucht</b> - das allererste Neujahrsblatt (1645)",
 		"content": "<p>Hier wird nur das Neujahrsblatt \"Tischzucht\" von 1645 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+		"seasons": {
+		"displayName": "Die vier Jahreszeiten (1646-1649)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "seasons.json",
+		"title": "<b>Ansichten von Zürich</b> - die vier Jahrezeiten (1646-1649)",
+		"content": "<p>Hier werden die vier Neujahrsblätter mit Ansichten von Zürich im Frühling (1646), Sommer (1647), Herbst (1648) und Winter (1649) angezeigt.<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
