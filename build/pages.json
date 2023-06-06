@@ -10,13 +10,13 @@
 		"content": "<p>Dient als Startseite für die \"1. Generation\" der Neujahrsblätter (1645-1684). Enthält noch unbestimmte Zahl an Unterseiten.</p>",
 		"content right": ""
 	},
-	"just-an-example": {
-		"displayName": "Beispiel Unterseite",
+		"first": {
+		"displayName": "Das allererste Neujahrsblatt",
 		"parent": "first-generation",
 		"class": "mirador",
-		"file": "NJB-simple.txt",
-		"title": "<b>Beispiel</b> - Test",
-		"content": "<p>Das ist nur ein Test, ob die Unterseiten richtig dargestellt werden.<\/p>",
+		"file": "tischzucht.txt",
+		"title": "<b>Tischzucht</b> - das allererste Neujahrsblatt (1645)",
+		"content": "<p>Hier wird nur das Neujahrsblatt \"Tischzucht\" von 1645 angezeigt.<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
@@ -80,6 +80,22 @@
 		"title": "<b>Götz, Gellert und Füssli</b> - 1753-1758",
 		"content": "<p><\/p>",
 		"content right": "Hier werden die Neujahrsblätter von 1753-1758 angezeigt.",
+		"displaycode": false
+	},
+	"more": {
+		"displayName": "Mehr",
+		"title": "<b>Alle Neujahrsblätter</b> - 1645-1758",
+		"content": "Hier gibt es noch mehr. Zum Beispiel kann via \"Alle Neujahrsblätter\" eine Collection mit allen Neujahrsblättern der Bürgerbibliothek (1645-1758) angezeigt und eine eigene Auswahl vorgenommen werden.",
+		"content right": ""
+	},
+	"all": {
+		"displayName": "Alle Neujahrsblätter (1645-1758)",
+		"parent": "more",
+		"class": "mirador",
+		"file": "NJB-simple.txt",
+		"title": "<b>Alle Neujahrsblätter der Bürgerbibliothek</b> - 1645-1758",
+		"content": "<p>Hier ist ein Viewer mit allen Neujahrsblättern von 1645-1758. Über das \"+\" kann eine eigene Auswahl vorgenommen werden.<\/p>",
+		"content right": "",
 		"displaycode": false
 	}
 }
