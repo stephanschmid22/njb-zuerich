@@ -36,6 +36,16 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"1712-1729": {
+		"displayName": "Johann Melchior Füssli (1712-1729)",
+		"parent": "second-generation",
+		"class": "mirador",
+		"file": "jmfuessli.txt",
+		"title": "<b>Johann Melchior Füssli</b> - 1712-1729",
+		"content": "<p>Hier werden die Neujahrsblätter von 1712-1729 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 	"third-generation": {
 		"displayName": "3. Generation 1730-1758",
 		"title": "<b>Die dritte Generation</b> - 1730-1758",
