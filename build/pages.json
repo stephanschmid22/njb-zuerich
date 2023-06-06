@@ -2,7 +2,7 @@
 	"home": {
 		"title": "CAS Projektarbeit Test - <b>Die Neujahrsblätter der Bürgerbibliothek Zürich</b>",
 		"content": "<p>Testseite. Hier folgt ein kurzer informativer Text zu den Neujahrsblättern und dem Inhalt der Seite.<\/p>",
-		"content right": "<figure class=\"figure\"><img src=\" https://www.e-rara.ch/i3f/v21/17729185/65,65,4020,2400/full/0/default.jpg \" class=\"figure-img img-fluid rounded\" alt=\"Tischzucht / Conrad Meyer fecit et excudit Ao 1645.\"><figcaption class=\"figure-caption\"> Tischzucht / Conrad Meyer fecit et excudit Ao 1645. Digitalisiert und zur Verfügung gestellt via e-rara von der Zentralbibliothek Zürich ([https://doi.org/10.3931/e-rara-65217| https://doi.org/10.3931/e-rara-65217]. Das Bild ist [gemeinfrei| https://creativecommons.org/publicdomain/mark/1.0/deed.de].</figcaption></figure>"
+		"content right": "<figure class=\"figure\"><img src=\" https://www.e-rara.ch/i3f/v21/17729185/65,65,4020,2400/full/0/default.jpg \" class=\"figure-img img-fluid rounded\" alt=\"Tischzucht / Conrad Meyer fecit et excudit Ao 1645.\"><figcaption class=\"figure-caption\"> Tischzucht / Conrad Meyer fecit et excudit Ao 1645. Digitalisiert und zur Verfügung gestellt via e-rara von der Zentralbibliothek Zürich ([https://doi.org/10.3931/e-rara-65217|https://doi.org/10.3931/e-rara-65217]). Das Bild ist [gemeinfrei|https://creativecommons.org/publicdomain/mark/1.0/deed.de].</figcaption></figure>"
 	},
 	"first-generation": {
 		"displayName": "1. Generation 1645-1684",
