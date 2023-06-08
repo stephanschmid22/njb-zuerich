@@ -14,15 +14,21 @@
 		],
   "workspace": {
     "layout": {
-      "direction": "column",
+      "direction": "row",
       "first": {
         "first": "a",
-        "second": "b",
-        "third": "c",
-        "direction": "row"
-      },
         "direction": "column"
       },
-      "splitPercentage": 100.100
+      "second": {
+        "first": "b",
+        "direction": "column"
+      },
+      "third": {
+        "first": "c",
+        "direction": "column"
+      },
+        "direction": "row"
+      },
+      "splitPercentage": 33.33
     }
   }
