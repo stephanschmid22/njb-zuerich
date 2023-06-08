@@ -14,14 +14,14 @@
 		],
   "workspace": {
     "layout": {
-      "direction": "row",
+      "direction": "column",
       "first": {
         "first": "a",
         "second": "b",
         "third": "c",
-        "direction": "column"
-      },
         "direction": "row"
+      },
+        "direction": "column"
       },
       "splitPercentage": 33.33
     }
