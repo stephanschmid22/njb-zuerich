@@ -46,6 +46,26 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"jmeyer": {
+		"displayName": "Erste Blätter",
+		"parent": "1685-1711",
+		"class": "mirador",
+		"file": "",
+		"title": "<b>Eine neue Generation</b> - die ersten beiden Blätter von Johann Meyer (1685-1686)",
+		"content": "<p>Hier werden später die zwei ersten Neujahrsblätter von Johann Meyer von 1685-1686 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+		"wasserkirche": {
+		"displayName": "Wasserkirche",
+		"parent": "1685-1711",
+		"class": "mirador",
+		"file": "wasserkirche.json",
+		"title": "<b>Die Burgerbibliothek in der Wasserkirche</b> - Verschiedene Ansichten (1687-1689)",
+		"content": "<p>Hier werden die drei Neujahrsblätter mit der Stadtbibliothek in der Wasserkirche von 1687-1689 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 		"1712-1729": {
 		"displayName": "Johann Melchior Füssli (1712-1729)",
 		"parent": "second-generation",
