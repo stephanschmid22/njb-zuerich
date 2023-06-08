@@ -12,23 +12,4 @@
 		{ "id": "c",
 			"manifestId": "https://www.e-rara.ch/i3f/v20/17729374/manifest" }
 		],
-  "workspace": {
-    "layout": {
-      "direction": "row",
-      "first": {
-        "first": "a",
-        "direction": "column"
-      },
-      "second": {
-        "first": "b",
-        "direction": "column"
-      },
-      "third": {
-        "first": "c",
-        "direction": "column"
-      },
-        "direction": "row"
-      },
-      "splitPercentage": 33.33
-    }
   }
