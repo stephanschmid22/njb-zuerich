@@ -51,7 +51,6 @@
           "direction": "column"
         },
         "direction": "row"
-      },
-      "splitPercentage": 25.00
+      }
     }
   }
