@@ -30,6 +30,16 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"cmeyerlast": {
+		"displayName": "Die letzten Blätter Conrad Meyers (1681-1684)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "cmeyerlast.json",
+		"title": "<b>Ende der ersten Generation</b> - die letzten Kupferstiche von Conrad Meyer (1681-1684)",
+		"content": "<p>Hier werden die letzten vier Neujahrsblätter von Conrad Meyer angezeigt (1681-1684.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 	"second-generation": {
 		"displayName": "2. Generation 1685-1729",
 		"title": "<b>Die zweite Generation</b> - 1685-1729",
