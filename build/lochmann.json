@@ -1,0 +1,25 @@
+{
+	"catalog": [
+		{ "manifestID":"https://www.e-rara.ch/i3f/v20/17729539/manifest" },
+		{ "manifestID":"https://www.e-rara.ch/i3f/v20/17729543/manifest" },
+		{ "manifestID":"https://www.e-rara.ch/i3f/v20/17729547/manifest" },
+    { "manifestID":"https://www.e-rara.ch/i3f/v20/17729552/manifest" },
+    { "manifestID":"https://www.e-rara.ch/i3f/v20/17729556/manifest" }
+	],
+	"windows": [{
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729539/manifest"
+		},
+		{
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729543/manifest"
+		},
+		{
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729547/manifest"
+		},
+    {
+      "manifestId": "https://www.e-rara.ch/i3f/v20/17729552/manifest"
+    },
+    {
+      "manifestId": "https://www.e-rara.ch/i3f/v20/17729556/manifest"
+    }
+	]
+} 
