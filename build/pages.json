@@ -178,7 +178,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"all": {
+	"artists": {
 		"displayName": "Die Kupferstecher",
 		"parent": "more",
 		"class": "mirador",
@@ -188,7 +188,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"all": {
+	"literature": {
 		"displayName": "Literatur",
 		"parent": "more",
 		"class": "mirador",
