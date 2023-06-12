@@ -35,12 +35,13 @@
           "first": "a",
           "second": "e",
           "direction": "column"
-        },
+        }, 
         "second": {
           "first": "b",
           "second": "f",
           "direction": "column"
-        },
+      }
+    },
       "second": {
         "first": {
           "first": "c",
@@ -54,6 +55,7 @@
         },
         "direction": "row"
       },
-      "splitPercentage": 33.33
+      "splitPercentage": 25.25
     }
   }
+}
