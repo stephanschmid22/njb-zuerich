@@ -1,7 +1,7 @@
 {
 	"home": {
-		"title": "CAS Projektarbeit Test - <b>Die Neujahrsblätter der Bürgerbibliothek Zürich</b>",
-		"content": "<p>Testseite. Hier folgt ein kurzer informativer Text zu den Neujahrsblättern und dem Inhalt der Seite.<\/p>",
+		"title": "CAS Projektarbeit - <b>Die Neujahrsblätter der Bürgerbibliothek Zürich</b>",
+		"content": "<p>Hier folgt ein kurzer informativer Text zu den Neujahrsblättern und dem Inhalt der Seite.<\/p>",
 		"content right": "<figure class=\"figure\"><img src=\" https://www.e-rara.ch/i3f/v21/17729185/65,65,4020,2400/full/0/default.jpg \" class=\"figure-img img-fluid rounded\" alt=\"Tischzucht / Conrad Meyer fecit et excudit Ao 1645.\"><figcaption class=\"figure-caption\"> Tischzucht / Conrad Meyer fecit et excudit Ao 1645. Digitalisiert und zur Verfügung gestellt via e-rara von der Zentralbibliothek Zürich ([https://doi.org/10.3931/e-rara-65217|https://doi.org/10.3931/e-rara-65217]). Das Bild ist [gemeinfrei|https://creativecommons.org/publicdomain/mark/1.0/deed.de].</figcaption></figure>"
 	},
 	"first-generation": {
@@ -92,34 +92,74 @@
 		"content": "<p>Dient als Startseite für die \"3. Generation\" der Neujahrsblätter (1730-1758). Enthält 3 oder mehr Unterseiten (1: Lochmann/Scheuchzer; 2: Herrliberger/Bullinger; 3: Götz, Gellert, Füssli.</p>",
 		"content right": ""
 	},
-	"1730-1738": {
-		"displayName": "Lochmann und Scheuchzer (1730-1738)",
+	"1730-1734": {
+		"displayName": "Johann Lochmann (1730-1734)",
 		"parent": "third-generation",
 		"class": "mirador",
-		"file": "",
-		"title": "<b>Lochmann und Scheuchzer</b> - 1730-1738",
-		"content": "<p>Hier werden die Neujahrsblätter von 1730-1738 angezeigt.<\/p>",
+		"file": "lochmann.json",
+		"title": "<b>Johann Lochmann</b> - 1730-1734",
+		"content": "<p>Hier werden die Neujahrsblätter von Johann Lochmann (1730-1734) angezeigt.<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
-	"1739-1752": {
-		"displayName": "Herrliberger und Bullinger (1739-1752)",
+	"1735": {
+		"displayName": "Unbekannter Kupferstecher (1735)",
 		"parent": "third-generation",
 		"class": "mirador",
-		"file": "",
-		"title": "<b>Herrliberger und Bullinger</b> - 1739-1752",
-		"content": "<p><\/p>",
-		"content right": "Hier werden die Neujahrsblätter von 1739-1752 angezeigt.",
+		"file": "unknown.txt",
+		"title": "<b>Versöhnung mit den Eydsgenossen</b> - der anonyme Kupferstich von 1735",
+		"content": "<p>Hier wird das Neujahrsblatt von 1735 angezeigt.<\/p>",
+		"content right": "",
 		"displaycode": false
 	},
-	"1753-1758": {
-		"displayName": "Götz, Gellert und Füssli (1753-1758)",
+	"1736-1738": {
+		"displayName": "David Scheuchzer (1736-1738)",
 		"parent": "third-generation",
 		"class": "mirador",
-		"file": "",
-		"title": "<b>Götz, Gellert und Füssli</b> - 1753-1758",
-		"content": "<p><\/p>",
-		"content right": "Hier werden die Neujahrsblätter von 1753-1758 angezeigt.",
+		"file": "scheuchzer.json",
+		"title": "<b>David Scheuchzer</b> - 1736-1738",
+		"content": "<p>Hier werden die Neujahrsblätter von David Scheuchzer (1736-1738) angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+	"1739-1743": {
+		"displayName": "David Herrliberger (1739-1743)",
+		"parent": "third-generation",
+		"class": "mirador",
+		"file": "herrliberger.json",
+		"title": "<b>David Herrliberger</b> - 1739-1743",
+		"content": "<p>Hier werden die Neujahrsblätter von David Herrliberger (1739-1743) angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+	"1744-1752": {
+		"displayName": "Johann Balthasar Bullinger (1744-1752)",
+		"parent": "third-generation",
+		"class": "mirador",
+		"file": "bullinger.json",
+		"title": "<b>Johann Balthasar Bullinger</b> - 1744-1752",
+		"content": "<p>Hier werden die Neujahrsblätter von Johann Balthasar Bullinger (1744-1752) angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+	"1753-1755": {
+		"displayName": "Gottfried Bernhard Götz (1753-1755)",
+		"parent": "third-generation",
+		"class": "mirador",
+		"file": "goetz.json",
+		"title": "<b>Gottfried Bernhard Götz</b> - 1753-1755",
+		"content": "<p>Hier werden die Neujahrsblätter von Gottfried Bernhard Götz (1753-1755) angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+	"1756-1758": {
+		"displayName": "Johann Rudolf Füssli (1756-1758)",
+		"parent": "third-generation",
+		"class": "mirador",
+		"file": "fuessli.json",
+		"title": "<b>Johann Rudolf Füssli</b> - 1756-1758",
+		"content": "<p>Hier werden die Neujahrsblätter von Johann Rudolf Füssli (1756-1758) angezeigt.<\/p>",
+		"content right": "",
 		"displaycode": false
 	},
 	"more": {
@@ -134,7 +174,27 @@
 		"class": "mirador",
 		"file": "NJB-simple.txt",
 		"title": "<b>Alle Neujahrsblätter der Bürgerbibliothek</b> - 1645-1758",
-		"content": "<p>Hier ist ein Viewer mit allen Neujahrsblättern von 1645-1758. Über das \"+\" kann eine eigene Auswahl vorgenommen werden.<\/p>",
+		"content": "<p>Hier ist ein Viewer mit allen Neujahrsblättern von 1645-1758. Über das \"+\" kann eine eigene Auswahl vorgenommen werden. Es folgt zudem eine Liste mitt allen Neujahrsblättern.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+	"all": {
+		"displayName": "Die Kupferstecher",
+		"parent": "more",
+		"class": "mirador",
+		"file": "",
+		"title": "<b>Zu den Kupferstechern</b> - die Künstler hinter den Neujahrsblättern",
+		"content": "<p>Hier folgen Informationen zu den Kupferstechern.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+	"all": {
+		"displayName": "Literatur",
+		"parent": "more",
+		"class": "mirador",
+		"file": "",
+		"title": "<b>Bibliographie</b> - Literatur über die Neujahrsblätter",
+		"content": "<p>Hier folgt ein Literaturverzeichnis.<\/p>",
 		"content right": "",
 		"displaycode": false
 	}
