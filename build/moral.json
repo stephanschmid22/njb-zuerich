@@ -31,27 +31,29 @@
     "layout": {
       "direction": "row",
       "first": {
-        "first": "a",
-        "second": "e",
-        "direction": "column"
-      },
-      "second": {
+        "first": {
+          "first": "a",
+          "second": "e",
+          "direction": "column"
+        },
+        "second": {
           "first": "b",
           "second": "f",
           "direction": "column"
         },
-      "third": {
+      "second": {
+        "first": {
           "first": "c",
           "second": "g",
           "direction": "column"
         },
-      "fourth": {
+        "second": {
           "first": "d",
           "second": "h",
           "direction": "column"
         },
         "direction": "row"
       },
-      "splitPercentage": 25.25
+      "splitPercentage": 33.33
     }
   }
