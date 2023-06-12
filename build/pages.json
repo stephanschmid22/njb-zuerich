@@ -30,6 +30,16 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"moral": {
+		"displayName": "Sinnbilder (1650-1657)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "moral.json",
+		"title": "<b>Sinnbilder</b> - \"belehrende Kupfer\" (1650-1657)",
+		"content": "<p>Hier werden die vier Neujahrsblätter von 1650-1657 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 		"cmeyerlast": {
 		"displayName": "Die letzten Blätter Conrad Meyers (1681-1684)",
 		"parent": "first-generation",
