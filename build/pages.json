@@ -67,7 +67,7 @@
 		"displaycode": false
 	},
 		"jmeyer": {
-		"displayName": "Erste Blätter",
+		"displayName": "Erste Blätter J. Meyers (1685-1686)",
 		"parent": "1685-1711",
 		"class": "mirador",
 		"file": "",
@@ -77,7 +77,7 @@
 		"displaycode": false
 	},
 		"wasserkirche": {
-		"displayName": "Wasserkirche",
+		"displayName": "Die Wasserkirche (1687-1689)",
 		"parent": "1685-1711",
 		"class": "mirador",
 		"file": "wasserkirche.json",
