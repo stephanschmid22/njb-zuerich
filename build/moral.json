@@ -40,7 +40,8 @@
           "first": "b",
           "second": "f",
           "direction": "column"
-      }
+      },
+	"direction": "row"
     },
       "second": {
         "first": {
@@ -52,8 +53,8 @@
           "first": "d",
           "second": "h",
           "direction": "column"
-        },
-        "direction": "row"
+       },
+	"direction": "row"
       },
       "splitPercentage": 25.25
     }
