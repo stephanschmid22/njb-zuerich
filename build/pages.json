@@ -50,6 +50,16 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"battles": {
+		"displayName": "Schlachten Teil 1 (1674-1679)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "battles.json",
+		"title": "<b>Schlachten</b> - Erster Teil (1674-1679)",
+		"content": "<p>Hier werden sechs Neujahrsblätter mit historischen Schlachten angezeigt (1674-1679).<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 		"cmeyerlast": {
 		"displayName": "Die letzten Blätter Conrad Meyers (1681-1684)",
 		"parent": "first-generation",
