@@ -91,7 +91,7 @@
 		"displaycode": false
 	},
 		"cmeyerlast": {
-		"displayName": "Die letzten Blätter Conrad Meyers (1681-1684)",
+		"displayName": "Die letzten Stiche Conrad Meyers (1681-1684)",
 		"parent": "first-generation",
 		"class": "mirador",
 		"file": "cmeyerlast.json",
@@ -117,11 +117,11 @@
 		"displaycode": false
 	},
 		"jmeyer": {
-		"displayName": "Erste Blätter J. Meyers (1685-1686)",
+		"displayName": "Erste Stiche J. Meyers (1685-1686)",
 		"parent": "1685-1711",
 		"class": "mirador",
 		"file": "jmeyer.json",
-		"title": "<b>Eine neue Generation</b> - die ersten beiden Blätter von Johann Meyer (1685-1686)",
+		"title": "<b>Eine neue Generation</b> - die ersten beiden Kupferstiche von Johann Meyer (1685-1686)",
 		"content": "<p>Hier werden später die zwei ersten Neujahrsblätter von Johann Meyer von 1685-1686 angezeigt.<\/p>",
 		"content right": "",
 		"displaycode": false
@@ -133,6 +133,16 @@
 		"file": "wasserkirche.json",
 		"title": "<b>Die Burgerbibliothek in der Wasserkirche</b> - Verschiedene Ansichten (1687-1689)",
 		"content": "<p>Hier werden die drei Neujahrsblätter mit der Stadtbibliothek in der Wasserkirche von 1687-1689 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+		"wasserkirche": {
+		"displayName": "Der letzte Stich von J. Meyer (1711)",
+		"parent": "1685-1711",
+		"class": "mirador",
+		"file": "jmeyerlast.txt",
+		"title": "<b>Fortunante Deo mediis bene currit in undis</b> - der letzte Kupferstich von Johann Meyer (1711)",
+		"content": "<p>Hier wird das letzte Neujahrsblatt mit einem Stich von J. Meyer angezeigt (1711).<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
