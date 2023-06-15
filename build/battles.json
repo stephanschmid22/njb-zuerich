@@ -1,0 +1,48 @@
+	{
+	"catalog": [
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729312/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729316/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729320/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729324/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729329/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729333/manifest"}
+		],
+	"windows": [
+		{ "id": "a",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729312/manifest" },
+		{ "id": "b",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729316/manifest" },
+		{ "id": "c",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729320/manifest" },
+		{ "id": "d",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729324/manifest" },
+		{ "id": "e",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729329/manifest" },
+		{ "id": "f",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729333/manifest" }
+		],
+  "workspace": {
+    "layout": {
+      "direction": "row",
+      "first": {
+        "first": "a",
+        "second": "d",
+        "direction": "column"
+      },
+      "second": {
+        "first": {
+          "first": "b",
+          "second": "e",
+          "direction": "column"
+        },
+        "second": {
+          "first": "c",
+          "second": "f",
+          "direction": "column"
+        },
+        "direction": "row"
+      },
+      "splitPercentage": 33.33
+    }
+  }
+	}
