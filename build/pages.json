@@ -40,6 +40,16 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"months": {
+		"displayName": "Die zwölf Monate (1663)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "months.txt",
+		"title": "<b>Die zwölf Monate</b> - \"Abriss, und Beschreibung (...) nach ihren Haubtwerken\" (1663)",
+		"content": "<p>Hier wird das Neujahrsblatt zu den zwölf Monaten (1663) angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 		"cmeyerlast": {
 		"displayName": "Die letzten Blätter Conrad Meyers (1681-1684)",
 		"parent": "first-generation",
