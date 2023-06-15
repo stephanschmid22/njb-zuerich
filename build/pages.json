@@ -40,6 +40,26 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"jamerspiegel": {
+		"displayName": "\"Türkischer Jamerspiegel\" (1664-1665)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "jamerspiegel.json",
+		"title": "<b>\"Türkischer Jamerspiegel\"</b> - erste Kriegsbilder (1664-1665)",
+		"content": "<p>Hier werden die beiden Neujahrsblätter von 1664-1665 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+		"battles": {
+		"displayName": "Letzte gemeinsame Blätter (1666-1673)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "meyersimler.json",
+		"title": "<b>Meyer und Simler</b> - die letzten gemeinsamen Blätter (1666-1673)",
+		"content": "<p>Hier werden die letzten 8 gemeinsamen Neujahrsblätter von C. Meyer und J.W. Simler ngezeigt (1666-1673).<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 		"months": {
 		"displayName": "Die zwölf Monate (1663)",
 		"parent": "first-generation",
