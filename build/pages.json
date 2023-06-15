@@ -60,6 +60,16 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"pax": {
+		"displayName": "Pax optima rerum (1680)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "pax.txt",
+		"title": "<b>Pax optima rerum</b> - Frieden ist das höchste Gut (1680)",
+		"content": "<p>Hier wird das Neujahrsblatt von 1680 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 		"cmeyerlast": {
 		"displayName": "Die letzten Blätter Conrad Meyers (1681-1684)",
 		"parent": "first-generation",
