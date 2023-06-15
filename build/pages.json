@@ -40,6 +40,16 @@
 		"content right": "",
 		"displaycode": false
 	},
+		"months": {
+		"displayName": "Die zwölf Monate (1663)",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "months.txt",
+		"title": "<b>Die zwölf Monate</b> - \"Abriss, und Beschreibung (...) nach ihren Haubtwerken\" (1663)",
+		"content": "<p>Hier wird das Neujahrsblatt zu den zwölf Monaten (1663) angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
 		"jamerspiegel": {
 		"displayName": "\"Türkischer Jamerspiegel\" (1664-1665)",
 		"parent": "first-generation",
@@ -57,16 +67,6 @@
 		"file": "meyersimler.json",
 		"title": "<b>Meyer und Simler</b> - die letzten gemeinsamen Blätter (1666-1673)",
 		"content": "<p>Hier werden die letzten 8 gemeinsamen Neujahrsblätter von C. Meyer und J.W. Simler ngezeigt (1666-1673).<\/p>",
-		"content right": "",
-		"displaycode": false
-	},
-		"months": {
-		"displayName": "Die zwölf Monate (1663)",
-		"parent": "first-generation",
-		"class": "mirador",
-		"file": "months.txt",
-		"title": "<b>Die zwölf Monate</b> - \"Abriss, und Beschreibung (...) nach ihren Haubtwerken\" (1663)",
-		"content": "<p>Hier wird das Neujahrsblatt zu den zwölf Monaten (1663) angezeigt.<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
