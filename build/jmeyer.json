@@ -1,0 +1,13 @@
+{
+	"catalog": [
+		{ "manifestID": "https://www.e-rara.ch/i3f/v20/17729357/manifest" }, 
+		{ "manifestID": "https://www.e-rara.ch/i3f/v20/17729361/manifest" }		
+	],
+	"windows": [{
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729357/manifest"
+		},
+		{
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729361/manifest"
+		}
+	]
+}
