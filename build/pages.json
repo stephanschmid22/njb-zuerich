@@ -254,7 +254,7 @@
 		"class": "mirador",
 		"file": "NJB-simple.txt",
 		"title": "<b>Alle Neujahrsblätter der Bürgerbibliothek</b> - 1645-1758",
-		"content": "<p>Hier ist ein Viewer mit allen Neujahrsblättern von 1645-1758. Über das \"+\" kann eine eigene Auswahl vorgenommen werden. Es folgt zudem eine Liste mitt allen Neujahrsblättern.<\/p>",
+		"content": "<p>Hier ist ein Viewer mit allen Neujahrsblättern von 1645-1758. Über das \"+\" kann eine eigene Auswahl vorgenommen werden. Es folgt zudem eine Liste mitt allen Neujahrsblättern.<\/p><p>Tabelle<\/p><p><table><tr><th>Signatur</th><th>Jahr</th><th>Titel</th><th>Kupferstecher</th><th>DOI (e-rara)</th><th>IIIF Manifest</th></tr><tr><td>AZZ 1</td><td>1645</td><td>Tischzucht</td><td>Conrad Meyer</td><td>https://www.e-rara.ch/zuz/doi/10.3931/e-rara-65217</td><td>https://www.e-rara.ch/i3f/v20/17729184/manifest</td></tr><tr><td>XXX</td><td>XXX</td><td>XXX</td><td>XXX</td><td>XXX</td><td>XXX</td></tr></table><\/p>",
 		"content right": "",
 		"displaycode": false
 	},
