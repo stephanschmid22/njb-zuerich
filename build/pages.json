@@ -1,6 +1,6 @@
 {
 	"home": {
-		"title": "CAS Projektarbeit - <b>Die Neujahrsblätter der Bürgerbibliothek Zürich</b>",
+		"title": "CAS DMIT Projektarbeit - <b>Die Neujahrsblätter der Bürgerbibliothek Zürich in IIIF</b>",
 		"content": "<p>Hier folgt ein kurzer informativer Text zu den Neujahrsblättern und dem Inhalt der Seite.<\/p>",
 		"content right": "<figure class=\"figure\"><img src=\" https://www.e-rara.ch/i3f/v21/17729185/65,65,4020,2400/full/0/default.jpg \" class=\"figure-img img-fluid rounded\" alt=\"Tischzucht / Conrad Meyer fecit et excudit Ao 1645.\"><figcaption class=\"figure-caption\"> Tischzucht / Conrad Meyer fecit et excudit Ao 1645. Digitalisiert und zur Verfügung gestellt via e-rara von der Zentralbibliothek Zürich ([https://doi.org/10.3931/e-rara-65217|https://doi.org/10.3931/e-rara-65217]). Das Bild ist [gemeinfrei|https://creativecommons.org/publicdomain/mark/1.0/deed.de].</figcaption></figure>"
 	},
@@ -37,6 +37,16 @@
 		"file": "moral.json",
 		"title": "<b>Sinnbilder</b> - \"belehrende Kupfer\" (1650-1657)",
 		"content": "<p>Hier werden die vier Neujahrsblätter von 1650-1657 angezeigt.<\/p>",
+		"content right": "",
+		"displaycode": false
+	},
+		"unclear": {
+		"displayName": "Unübersichtliche Zeiten (1658-1662) - LEER",
+		"parent": "first-generation",
+		"class": "mirador",
+		"file": "",
+		"title": "<b>Unübersichtliche Zeiten</b> - die Neujahrsblätter von 1658-1662",
+		"content": "<p>tbd (1658-1662)<\/p>",
 		"content right": "",
 		"displaycode": false
 	},
