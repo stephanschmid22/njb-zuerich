@@ -1,15 +1,11 @@
-# simple-mirador
+# njb-zuerich
 
-This is project is a simple copy of the [simple-site](https://github.com/jpadfield/simple-site) repository. It has been set up to provide a dedicated example of using the system to view [IIIF](https://iiif.io) manifests within the IIIF Image viewer [Mirador](https://projectmirador.org/).
+Dieses GitHub Repository wurde anlässlich einer Projektarbeit für den CAS Datenmanagement und Informationstechnologien der Philosophischen Fakultät der Universität Zürich in Kooperation mit der Zentralbibliothek Zürich erstellt. Ziel der Projektarbeit ist ein Prototyp für einen Webauftritt, wo die Neujahrsblätter der Burgerbibliothek (1645-1758) in ihrer Gesamtheit präsentiert, analysiert und in Kontext gesetzt werden können. Das Projekt ist ausbaubar aufgebaut, sodass die Neujahrsblätter der Stadt- und Zentralbibliothek später ergänzt werden können.
 
-### To see the example web pages got to: [simple-mirador](https://jpadfield.github.io/simple-mirador/).
+## Die Neujahrsblätter der Burger-, Stadt- und Zentralbibliothek Zürich
 
-## Instructions
+Text
 
-Full details and instructions relating to how this system works can be found at: [simple-site webpages](https://jpadfield.github.io/simple-site/).
+## Simple Site / Simple Mirador
 
-## Acknowledgement
-This specific project was prepared and tested as part of:
-
-### The AHRC Funded [IIIF - TANC](https://tanc-ahrc.github.io/IIIF-TNC) project
-<img height="64px" src="https://github.com/jpadfield/simple-site/blob/master/docs/graphics/TANC - IIIF.png" alt="IIIF - TNC">
+Das Repository ist eine Kopie von [simple-mirador](https://jpadfield.github.io/simple-mirador/) von Joe Padfield. Simple Mirador wiederum ist eine Kopie des Repositories [simple-site](https://github.com/jpadfield/simple-site), ergänzt um Beispielseiten mit eingebundenem [IIIF](https://iiif.io) Viewer [Mirador](https://projectmirador.org/).
