@@ -1,7 +1,7 @@
 	{
-		"metaDescription": "Copy of simple-site: providing a simple example of its use with IIIF.",
-		"metaKeywords": "Scientific, Research, Heritage, Culture, JSON, PHP, Javascript, Github Pages, Dissemination, VRE, IIIF, Mirador ",
-		"metaAuthor": "Joseph Padfield| joseph.padfield@ng-london.org.uk |National Gallery | London UK | website@ng-london.org.uk |www.nationalgallery.org.uk",
+		"metaDescription": "Kopie von simple-mirador (\"Copy of simple-site: providing a simple example of its use with IIIF\"): Angelegt für Projektarbeit im CAS Datenmanagement und Informationstechnologien der Universität Zürich in Kooperation mit der Zentralbibliothek Zürich.",
+		"metaKeywords": "CAS, Projektarbeit, Project, Neujahrsblatt, Zurich, Heritage, Culture, Github Pages, IIIF, Mirador ",
+		"metaAuthor": "Stephan Schmid| stephan.schmid@zb.uzh.ch",
 		"metaTitle": "CAS Projektarbeit: Zürcher Neujahrsblätter",
 		"metaFavIcon": "graphics/favicon.ico",
 		"logo_link": "./",
