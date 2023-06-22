@@ -26,37 +26,5 @@
 			"manifestId": "https://www.e-rara.ch/i3f/v20/17729226/manifest" },
 		{ "id": "h",
 			"manifestId": "https://www.e-rara.ch/i3f/v20/17729230/manifest" }
-		],
-  "workspace": {
-    "layout": {
-      "direction": "row",
-      "first": {
-        "first": {
-          "first": "a",
-          "second": "e",
-          "direction": "column"
-        }, 
-        "second": {
-          "first": "b",
-          "second": "f",
-          "direction": "column"
-      },
-	"direction": "row"
-    },
-      "second": {
-        "first": {
-          "first": "c",
-          "second": "g",
-          "direction": "column"
-        },
-        "second": {
-          "first": "d",
-          "second": "h",
-          "direction": "column"
-       },
-	"direction": "row"
-      },
-      "splitPercentage": 50.50
-    }
-  }
+		]
 }
