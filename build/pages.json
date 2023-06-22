@@ -172,7 +172,7 @@
 		"content": "<p>Dient als Startseite für die \"3. Generation\" der Neujahrsblätter (1730-1758). Enthält 3 oder mehr Unterseiten (1: Lochmann/Scheuchzer; 2: Herrliberger/Bullinger; 3: Götz, Gellert, Füssli.</p>",
 		"content right": ""
 	},
-	"1730-1734": {
+		"1730-1734": {
 		"displayName": "Johann Lochmann (1730-1734)",
 		"parent": "third-generation",
 		"class": "mirador",
@@ -182,7 +182,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"1735-1735": {
+		"1735-1735": {
 		"displayName": "Unbekannter Kupferstecher (1735)",
 		"parent": "third-generation",
 		"class": "mirador",
@@ -192,7 +192,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"1736-1738": {
+		"1736-1738": {
 		"displayName": "David Scheuchzer (1736-1738)",
 		"parent": "third-generation",
 		"class": "mirador",
@@ -202,7 +202,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"1739-1743": {
+		"1739-1743": {
 		"displayName": "David Herrliberger (1739-1743)",
 		"parent": "third-generation",
 		"class": "mirador",
@@ -212,7 +212,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"1744-1752": {
+		"1744-1752": {
 		"displayName": "Johann Balthasar Bullinger (1744-1752)",
 		"parent": "third-generation",
 		"class": "mirador",
@@ -222,7 +222,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"1753-1755": {
+		"1753-1755": {
 		"displayName": "Gottfried Bernhard Götz (1753-1755)",
 		"parent": "third-generation",
 		"class": "mirador",
@@ -232,7 +232,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"1756-1758": {
+		"1756-1758": {
 		"displayName": "Johann Rudolf Füssli (1756-1758)",
 		"parent": "third-generation",
 		"class": "mirador",
@@ -248,7 +248,7 @@
 		"content": "Hier gibt es noch mehr. Zum Beispiel kann via \"Alle Neujahrsblätter\" eine Collection mit allen Neujahrsblättern der Bürgerbibliothek (1645-1758) angezeigt und eine eigene Auswahl vorgenommen werden.",
 		"content right": ""
 	},
-	"all": {
+		"all": {
 		"displayName": "Alle Neujahrsblätter (1645-1758)",
 		"parent": "more",
 		"class": "mirador",
@@ -258,7 +258,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"artists": {
+		"artists": {
 		"displayName": "Die Kupferstecher",
 		"parent": "more",
 		"class": "mirador",
@@ -268,7 +268,7 @@
 		"content right": "",
 		"displaycode": false
 	},
-	"literature": {
+		"literature": {
 		"displayName": "Literatur",
 		"parent": "more",
 		"class": "mirador",
