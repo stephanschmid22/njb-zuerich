@@ -1,0 +1,64 @@
+{
+	"catalog": [
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729597/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729601/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729605/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729609/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729613/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729618/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729622/manifest"},
+		{"manifestID":"https://www.e-rara.ch/i3f/v20/17729626/manifest"}
+		],
+	"windows": [
+		{ "id": "a",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729597/manifest" },
+		{ "id": "b",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729601/manifest" },
+		{ "id": "c",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729605/manifest" },
+		{ "id": "d",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729609/manifest" },
+		{ "id": "e",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729613/manifest" },
+		{ "id": "f",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729618/manifest" },
+		{ "id": "g",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729622/manifest" },
+		{ "id": "h",
+			"manifestId": "https://www.e-rara.ch/i3f/v20/17729626/manifest" },
+    { "id": "i",
+      "manifestId": "https://www.e-rara.ch/i3f/v20/17729630/manifest" }
+		],
+  "workspace": {
+    "layout": {
+      "direction": "row",
+      "first": {
+        "first": {
+          "first": "a",
+          "second": "e",
+          "direction": "column"
+        }, 
+        "second": {
+          "first": "b",
+          "second": "f",
+          "direction": "column"
+      },
+	"direction": "row"
+    },
+      "second": {
+        "first": {
+          "first": "c",
+          "second": "g",
+          "direction": "column"
+        },
+        "second": {
+          "first": "d",
+          "second": "h",
+          "direction": "column"
+       },
+	"direction": "row"
+      },
+      "splitPercentage": 50.50
+    }
+  }
+}
